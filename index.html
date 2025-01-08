@@ -69,45 +69,24 @@
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link navText" href="#"><b>About Us</b></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                      <a
-                        class="nav-link navText dropdown-toggle"
-                        href="#"
-                        id="navbarDropdown"
-                        role="button"
-                        data-bs-toggle="dropdown"
-                        aria-expanded="false"
+                      <a class="nav-link navText" href="#aboutUs"
+                        ><b>About Us</b></a
                       >
-                        <b>Services</b>
-                      </a>
-                      <ul
-                        class="dropdown-menu"
-                        aria-labelledby="navbarDropdown"
-                      >
-                        <li>
-                          <a class="dropdown-item navText" href="#">Action</a>
-                        </li>
-                        <li>
-                          <a class="dropdown-item navText" href="#"
-                            >Another action</a
-                          >
-                        </li>
-                        <li>
-                          <a class="dropdown-item navText" href="#"
-                            >Something else here</a
-                          >
-                        </li>
-                      </ul>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link navText" href="#"
+                      <a class="nav-link navText" href="#services">
+                        <b>Services</b>
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link navText" href="#workflow"
                         ><b>How We Works</b></a
                       >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link navText" href="#"><b>Contact Us</b></a>
+                      <a class="nav-link navText" href="#footer"
+                        ><b>Contact Us</b></a
+                      >
                     </li>
                   </ul>
                 </div>
@@ -150,7 +129,7 @@
 
     <!--About Us Section-->
     <section>
-      <div class="container py-5">
+      <div class="container py-5" id="aboutUs">
         <div class="row">
           <div class="col-md-6 col-lg-6 col-md-12 col-12 text-center my-auto">
             <img class="img-fluid" src="images/Team.png" alt="IT Services" />
@@ -161,7 +140,7 @@
                 <h2>Who We Are</h2>
               </div>
               <div class="row">
-                <div class="col-md-12 d-flex align-items-start">
+                <div class="col-md-12 d-flex align-items-start mainHeading">
                   <p>
                     Lorem Ipsum is simply dummy text of the printing and
                     typesetting industry. Lorem Ipsum has been the industry's
@@ -183,7 +162,7 @@
     </section>
 
     <!--Services Section-->
-    <section class="sectionBgColor">
+    <section class="sectionBgColor" id="services">
       <div class="container py-5" id="hanging-icons">
         <h2 class="pb-2 border-bottom text-center mainHeading">
           Solutions We Provide
@@ -205,7 +184,7 @@
               </svg>
             </div>
 
-            <div>
+            <div class="mainHeading">
               <h2>Featured title</h2>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
@@ -230,7 +209,7 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="mainHeading">
               <h2>Featured title</h2>
               <p>
                 Paragraph of text beneath the heading to explain the heading.
@@ -255,9 +234,9 @@
                 />
               </svg>
             </div>
-            <div>
+            <div class="mainHeading">
               <h2>Featured title</h2>
-              <p>
+              <p class="mainHeading">
                 Paragraph of text beneath the heading to explain the heading.
                 We'll add onto it with another sentence and probably just keep
                 going until we run out of words.
@@ -271,9 +250,9 @@
 
     <!--Workflow Section-->
     <section>
-      <div class="container py-5">
+      <div class="container py-5" id="workflow">
         <div class="row">
-          <div class="col-md-12 col-lg-6 col-12">
+          <div class="col-md-12 col-lg-6 col-12 g-4 py-5">
             <div class="row">
               <div class="col-md-12 py-4 text-center mainHeading">
                 <h2>How We Works?</h2>
@@ -290,9 +269,9 @@
                     >
                       <use xlink:href="#bootstrap"></use>
                     </svg>
-                    <div>
-                      <h4 class="fw-bold mb-0">02. Featured title</h4>
-                      <p>
+                    <div class="mainHeading">
+                      <h4 class="fw-bold mb-0">0. Featured title</h4>
+                      <p class="mainHeading">
                         Paragraph of text beneath the heading to explain the
                         heading.
                       </p>
@@ -314,9 +293,9 @@
                   >
                     <use xlink:href="#bootstrap"></use>
                   </svg>
-                  <div>
+                  <div class="mainHeading">
                     <h4 class="fw-bold mb-0">02. Featured title</h4>
-                    <p>
+                    <p class="mainHeading">
                       Paragraph of text beneath the heading to explain the
                       heading.
                     </p>
@@ -334,9 +313,9 @@
                   >
                     <use xlink:href="#bootstrap"></use>
                   </svg>
-                  <div>
+                  <div class="mainHeading">
                     <h4 class="fw-bold mb-0">03. Featured title</h4>
-                    <p>
+                    <p class="mainHeading">
                       Paragraph of text beneath the heading to explain the
                       heading.
                     </p>
@@ -348,7 +327,7 @@
             <div class="row">
               <div class="col-md-6"></div>
               <div class="col-md-6">
-                <div class="col d-flex align-items-start">
+                <div class="col d-flex align-items-start mainHeading">
                   <svg
                     class="bi text-muted flex-shrink-0 me-3"
                     width="1.75em"
@@ -356,7 +335,7 @@
                   >
                     <use xlink:href="#bootstrap"></use>
                   </svg>
-                  <div>
+                  <div class="mainHeading">
                     <h4 class="fw-bold mb-0">04. Featured title</h4>
                     <p>
                       Paragraph of text beneath the heading to explain the
@@ -563,7 +542,7 @@
     </section>
 
     <!--CTA-->
-    <section class="CTABgImage">
+    <section class="CTABgImage" id="footer">
       <div class="py-5 container">
         <div class="row py-lg-5 text-white text-center">
           <div class="col-lg-12 col-md-8 mx-auto">
@@ -596,7 +575,9 @@
               <strong class="text-white">Company Name</strong>
             </div>
             <div class="col-12 col-md">
-              <a class="nav-link text-white" href="#"><h5>About Us</h5></a>
+              <a class="nav-link text-white" href="aboutUs"
+                ><h5>About Us</h5></a
+              >
             </div>
             <div class="col-12 col-md">
               <a class="nav-link text-white" href="#"><h5>Services</h5></a>

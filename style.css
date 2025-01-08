@@ -3,6 +3,10 @@ html {
   height: 100vh;
 }
 
+.navbarBg {
+  background-color: #00008b;
+}
+
 .customSiteHeader {
   background-color: #f1f5ff;
   border-radius: 0 0 0 60%;
@@ -30,11 +34,6 @@ html {
 .sectionBgColor {
   background-color: #f1f5ff;
 }
-
-.customButton {
-  background-color: #05a5b7;
-}
-
 img {
   width: 75%;
 }
