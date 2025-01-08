@@ -9,7 +9,7 @@ html {
 
 .customSiteHeader {
   background-color: #f1f5ff;
-  border-radius: 0 0 0 60%;
+  border-radius: 0 0 0 50%;
 }
 
 .customSiteFooter {
@@ -40,6 +40,10 @@ img {
 
 .sectionBgcolor {
   background-color: #f2f2f2;
+}
+
+.faqImage {
+  width: 50%;
 }
 .accordion-item {
   background-color: #f1f5ff;
