@@ -1,0 +1,68 @@
+body,
+html {
+  height: 100vh;
+}
+
+.customSiteHeader {
+  background-color: #f1f5ff;
+  border-radius: 0 0 0 60%;
+}
+
+.customSiteFooter {
+  background-color: #f1f5ff;
+}
+
+.mainHeading,
+.navText {
+  color: #3658a7;
+}
+
+.headerTextColor {
+  color: #96a3ca;
+}
+
+.aboutUsSection {
+  background-image: url("images/About\ Us\ Bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.sectionBgColor {
+  background-color: #f1f5ff;
+}
+
+.customButton {
+  background-color: #05a5b7;
+}
+
+img {
+  width: 75%;
+}
+
+.sectionBgcolor {
+  background-color: #f2f2f2;
+}
+.accordion-item {
+  background-color: #f1f5ff;
+}
+
+.accordion-button {
+  border-radius: 10px 10px 10px 10px !important;
+  background-color: cornflowerblue;
+  margin-bottom: 1rem;
+}
+
+.accordion-body {
+  border: solid 1px none;
+  background-color: #c0c0c0;
+  margin-bottom: 1rem;
+  color: #00008b;
+}
+
+.CTABgImage {
+  background-image: url("images/CTAImage.jpg"); /* Replace with your image */
+  background-size: cover; /* Ensures the image covers the entire section */
+  display: flex; /* Align content vertically and horizontally */
+  justify-content: center; /* Centers horizontally */
+  align-items: center;
+}
