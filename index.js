@@ -1,4 +1,5 @@
-const btn = document.getElementById("button");
+/*JS for email service*/
+const btn = document.getElementById("sendMessageButton");
 
 document
   .getElementById("contact-form")
