@@ -38,19 +38,26 @@ img {
   width: 75%;
 }
 
-.cardOnHover:hover {
+/*.cardOnHover:hover {
   background-color: cornflowerblue;
   transition: transform 0.3s ease, background-color 0.3s ease;
   transform: scale(1.1);
+}*/
+p {
+  text-align: justify;
 }
-
 .iconColor {
   color: #ff8e00;
 }
-
 .faqImage {
-  width: 50%;
+  width: 100%;
 }
+@media only screen and (max-width: 992px) {
+  .faqImage {
+    width: 50%;
+  }
+}
+
 .accordion-item {
   background-color: #f1f5ff;
 }
