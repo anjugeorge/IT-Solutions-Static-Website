@@ -1,10 +1,11 @@
 body,
 html {
   height: 100vh;
+  font-size: 16px;
 }
 
 .navbarBg {
-  background-color: #00008b;
+  background-color: #3658a7;
 }
 
 .customSiteHeader {
@@ -38,17 +39,23 @@ img {
   width: 75%;
 }
 
-/*.cardOnHover:hover {
-  background-color: cornflowerblue;
-  transition: transform 0.3s ease, background-color 0.3s ease;
-  transform: scale(1.1);
-}*/
 p {
   text-align: justify;
+  line-height: 1.5;
+}
+.card {
+  border: none;
 }
 .iconColor {
-  color: #ff8e00;
+  color: #7e5cad;
 }
+
+@media only screen and (max-width: 992px) {
+  .iconDisplay {
+    display: none;
+  }
+}
+
 .faqImage {
   width: 100%;
 }
@@ -64,7 +71,7 @@ p {
 
 .accordion-button {
   border-radius: 10px 10px 10px 10px !important;
-  background-color: cornflowerblue;
+  background-color: #cfe2ff;
   margin-bottom: 1rem;
 }
 
@@ -76,9 +83,9 @@ p {
 }
 
 .CTABgImage {
-  background-image: url("images/CTAImage.jpg"); /* Replace with your image */
-  background-size: cover; /* Ensures the image covers the entire section */
-  display: flex; /* Align content vertically and horizontally */
-  justify-content: center; /* Centers horizontally */
+  background-image: url("images/CTAImage.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
   align-items: center;
 }
