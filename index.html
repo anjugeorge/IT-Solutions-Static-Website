@@ -905,7 +905,7 @@
             <p class="lead text-white text-center">
               We’re here to help you succeed. Contact us today!
             </p>
-            <form>
+            <form id="contact-form">
               <div class="row justify-content-center py-4">
                 <div class="row">
                   <div class="col-12">
@@ -947,6 +947,8 @@
                                   type="text"
                                   class="form-control"
                                   placeholder="First name"
+                                  id="fname"
+                                  name="fname"
                                 />
                               </div>
                             </div>
@@ -956,6 +958,8 @@
                                   type="text"
                                   class="form-control"
                                   placeholder="Last name"
+                                  id="lname"
+                                  name="lname"
                                 />
                               </div>
                             </div>
@@ -964,11 +968,17 @@
                                 <input
                                   type="email"
                                   class="form-control"
-                                  id="exampleInputEmail1"
                                   aria-describedby="emailHelp"
                                   placeholder="Enter email"
+                                  id="email"
+                                  name="email"
                                 />
-                              </div>
+                              <div class="col-md-12">
+                                  <div class="form-group pb-4">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" name="message" rows="3"></textarea>
+                                  </div>
+                                </div>
                             </div>
                           </div>
                           <div class="modal-footer">
@@ -979,7 +989,11 @@
                             >
                               Close
                             </button>
-                            <button type="button" class="btn btn-primary">
+                            <button
+                              type="submit"
+                              id="button"
+                              class="btn btn-primary"
+                            >
                               Send Message
                             </button>
                           </div>
@@ -1045,5 +1059,14 @@
     <script>
       AOS.init();
     </script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <script type="text/javascript">
+      emailjs.init("rgNQ-DGggHnModCBc");
+    </script>
+    <script src="index.js"></script>
   </body>
 </html>
